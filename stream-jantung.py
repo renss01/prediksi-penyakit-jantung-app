@@ -10,7 +10,7 @@ st.title('Prediksi Penyakit Jantung')
 
 col1, col2, col3 = st.columns(3)
 
-with col1:
+with col1: 
     age = st.text_input('Umur')
 with col2:
     sex = st.text_input('Jenis Kelamin')
