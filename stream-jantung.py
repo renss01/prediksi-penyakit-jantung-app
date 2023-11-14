@@ -6,7 +6,7 @@ import streamlit as st
 model = pickle.load(open('penyakit_jantung.sav','rb'))
 
 # judul web
-st.title('Prediksi Penyakit Jantungg')
+st.title('Prediksi Penyakit Jantung')
 
 col1, col2, col3 = st.columns(3)
 
