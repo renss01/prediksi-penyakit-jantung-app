@@ -11,31 +11,31 @@ st.title('Prediksi Penyakit Jantungg')
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    age = st.number_input('Umur')
+    age = st.text_input('Umur')
 with col2:
-    sex = st.number_input('Jenis Kelamin')
+    sex = st.text_input('Jenis Kelamin')
 with col3:
-    cp = st.number_input('Jenis Nyeri Dada')
+    cp = st.text_input('Jenis Nyeri Dada')
 with col1:
-    trestbps = st.number_input('Tekanan Darah')
+    trestbps = st.text_input('Tekanan Darah')
 with col2:
-    chol = st.number_input('Nilai Kolesterol')
+    chol = st.text_input('Nilai Kolesterol')
 with col3:
-    fbs = st.number_input('Gula Darah')
+    fbs = st.text_input('Gula Darah')
 with col1:
-    restecg = st.number_input('Hasil Elektrokadiografi')
+    restecg = st.text_input('Hasil Elektrokadiografi')
 with col2:
-    thalach = st.number_input('Detak Jantung Maksimum')
+    thalach = st.text_input('Detak Jantung Maksimum')
 with col3:
-    exang = st.number_input('Induksi Angina')
+    exang = st.text_input('Induksi Angina')
 with col1:
-    oldpeak = st.number_input('ST Depression')
+    oldpeak = st.text_input('ST Depression')
 with col2:
-    slope = st.number_input('Slope')
+    slope = st.text_input('Slope')
 with col3:
-    ca = st.number_input('Nilai CA')
+    ca = st.text_input('Nilai CA')
 with col1:
-    thal = st.number_input('Nilai Thal')
+    thal = st.text_input('Nilai Thal')
 
 # code for prediction
 heart_diagnosis =''
